@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 const Contact = ({ id, name, number, onDelete }) => {
     return (
      
-      <li key={id} className={styles.contactItem}>
+      <li className={styles.contactItem}>
       <div className={styles.contactInfo}>
         <span className={styles.contactName}><FaUser className={styles.icon}/>{name}</span>
         <span className={styles.contactNumber}><FaPhone className={styles.icon}/>{number}</span>
